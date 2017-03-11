@@ -26,6 +26,6 @@ public class ApplicationTests {
     @Test
     public void testHelloWorld() {
         final String response = restTemplate.getForObject("http://localhost:" + port, String.class);
-        assertEquals("Jose says Welcome to the Spinnaker Demo!!", response);
+        assertEquals("HBG says Welcome to the Spinnaker Demo!!", response);
     }
 }
