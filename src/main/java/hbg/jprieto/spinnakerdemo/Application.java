@@ -17,7 +17,7 @@ public class Application {
 
         @RequestMapping
         public String helloWorld() {
-            return "Jose says Welcome to the Spinnaker Demo!!";
+            return "HBG says Welcome to the Spinnaker Demo!!";
         }
     }
 }
