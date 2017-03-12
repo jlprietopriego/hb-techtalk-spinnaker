@@ -17,7 +17,7 @@ public class Application {
 
         @RequestMapping
         public String helloWorld() {
-            return "HBG says Welcome to the Spinnaker Demo!!";
+            return "<body style='background-color: yellow'>HBG says Welcome to the Spinnaker Demo!!</body>";
         }
     }
 }
